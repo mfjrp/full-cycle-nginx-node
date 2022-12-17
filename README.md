@@ -2,14 +2,14 @@
 Procedimentos que devem ser realizados para a execução do projeto
 
 ## Instruções
-1. Entrar no [Docker Hub](https://hub.docker.com/repository/docker/mfrasson/desafio-go/general) e fazer o push da imagem criada
-2. Abrir um terminal 
+1. Fazer o git pull do projeto
+2. Abrir um terminal WSL (preferencialmente)
 3. Executar o comando:
 ```
-docker push mfrasson/xxx
+docker-compose up -d
 ```
-4. Assim que a imagem terminar o download, realizar o próximo comando
+4. Assim que a imagem terminar de realizar os procedimentos, abrir o navegador e entrar com
 ```
-docker xxx 
+localhost:8080 
 ```
 5. Validar o resultado final proposto pelo desafio!
